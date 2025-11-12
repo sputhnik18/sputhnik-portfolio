@@ -23,9 +23,10 @@ function Hero() {
               </div>
             </div>
             <p className="hero-description">
-              Specializing in <strong>React.js</strong>, <strong>TypeScript</strong>, and{' '}
-              <strong>Micro Frontend Architecture</strong> with around 5 years of experience.
-              My vision is to develop <strong>scalable and modular frontend applications</strong> by
+              Full stack developer specializing in <strong>React.js</strong>, <strong>TypeScript</strong>, and{' '}
+              <strong>Micro Frontend Architecture</strong> on the frontend, with <strong>Java Spring Boot</strong>,{' '}
+              <strong>REST APIs</strong>, and <strong>GraphQL</strong> on the backend, bringing around 5 years of experience.
+              My vision is to develop <strong>scalable and modular full stack applications</strong> by
               deeply understanding product requirements and end user needs, creating solutions that
               bridge business goals with exceptional user experiences.
             </p>
@@ -44,7 +45,7 @@ function Hero() {
               </div>
             </div>
             <div className="hero-cta">
-              <a href="Sputhnik_React.pdf" download className="btn btn-primary">
+              <a href="Sputhnik_FSD_Texas.pdf" download className="btn btn-primary">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
@@ -64,10 +65,15 @@ function Hero() {
   <span className="code-property">name:</span> <span className="code-string">"Sputhnik Gundu"</span>,
   <span className="code-property">role:</span> <span className="code-string">"Software Engineer"</span>,
   <span className="code-property">experience:</span> <span className="code-number">5</span>,
-  <span className="code-property">skills:</span> [
+  <span className="code-property">frontend:</span> [
     <span className="code-string">"React"</span>,
     <span className="code-string">"TypeScript"</span>,
     <span className="code-string">"Micro Frontends"</span>
+  ],
+  <span className="code-property">backend:</span> [
+    <span className="code-string">"Java Spring Boot"</span>,
+    <span className="code-string">"REST APIs"</span>,
+    <span className="code-string">"GraphQL"</span>
   ],
   <span className="code-property">passion:</span> <span className="code-string">"Building scalable apps"</span>
 {'}'};

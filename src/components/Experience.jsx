@@ -9,13 +9,14 @@ function Experience() {
       location: 'Richardson, Texas',
       type: 'Contract',
       highlights: [
-        'Building React application for agile teams to track features and feature links across AT&T projects',
-        'Integrated dashboard with Jira API for real-time project tracking and feature management',
+        'Building full stack React application with Java Spring Boot backend for agile teams to track features and feature links across AT&T projects',
+        'Developed RESTful APIs and GraphQL endpoints using Spring Boot for real-time project tracking and feature management',
+        'Integrated dashboard with Jira REST API for seamless data synchronization and automated workflows',
         'Developing internal component library with 50+ reusable React components for cross-team adoption',
-        'Implementing comprehensive unit tests achieving 80% coverage using Jest and React Testing Library',
-        'Collaborating with multiple agile teams to gather requirements and deliver tailored solutions'
+        'Implementing comprehensive unit tests achieving 80% coverage using Jest, React Testing Library, and JUnit',
+        'Collaborating with multiple agile teams to gather requirements and deliver tailored full stack solutions'
       ],
-      tags: ['React', 'TypeScript', 'Jira Integration', 'Component Library', 'Dashboard', 'Agile']
+      tags: ['React', 'TypeScript', 'Java Spring Boot', 'REST APIs', 'GraphQL', 'Jira Integration', 'Component Library', 'Agile']
     },
     {
       company: 'The Hartford',
@@ -23,30 +24,34 @@ function Experience() {
       period: 'Dec 2021 - Dec 2023',
       location: 'Bengaluru, India',
       highlights: [
-        'Architected micro frontend system using Webpack Module Federation for 500K users',
-        'Reduced main bundle size by 40% and improved page load time from 4.2s to 2.5s',
-        'Built comprehensive testing framework achieving 85% code coverage',
-        'Mentored 2 junior developers on React and TypeScript best practices'
+        'Architected full stack micro frontend system using Webpack Module Federation with Spring Boot microservices for 500K users',
+        'Designed and implemented RESTful APIs using Java Spring Boot for insurance policy management and claims processing',
+        'Reduced main bundle size by 40% and improved page load time from 4.2s to 2.5s through optimization and API response caching',
+        'Built comprehensive testing framework achieving 85% code coverage across frontend and backend services',
+        'Implemented Spring Security with JWT authentication for secure API endpoints',
+        'Mentored 2 junior developers on React, TypeScript, and Spring Boot best practices'
       ],
-      tags: ['React', 'TypeScript', 'Webpack Module Federation', 'Jest', 'Mentorship']
+      tags: ['React', 'TypeScript', 'Java Spring Boot', 'Microservices', 'REST APIs', 'Webpack Module Federation', 'JWT', 'Jest', 'JUnit', 'Mentorship']
     },
     {
       company: 'Scaler',
-      role: 'Software Engineer - React',
+      role: 'Software Engineer - Full Stack',
       period: 'Jan 2020 - Dec 2021',
       location: 'Bengaluru, India',
       featured: true,
       description: '🚀 Startup Experience: Contributed to building an EdTech platform from early stages',
       highlights: [
-        'Developed interactive analytics dashboards for 50K+ daily users in a fast-paced startup environment',
-        'Built data visualization components with real-time updates using WebSocket connections',
+        'Developed full stack interactive analytics dashboards for 50K+ daily users in a fast-paced startup environment',
+        'Built RESTful APIs using Java Spring Boot for student progress tracking, course management, and assessments',
+        'Implemented GraphQL endpoints for efficient data fetching and real-time updates using WebSocket connections',
         'Created reusable component library and design system documented in Storybook',
-        'Improved user engagement metrics by 30% through enhanced UI/UX patterns',
-        'Implemented monitoring infrastructure using Grafana and Elasticsearch',
+        'Designed database schemas and optimized SQL queries for PostgreSQL, improving query performance by 40%',
+        'Improved user engagement metrics by 30% through enhanced UI/UX patterns and backend optimizations',
+        'Implemented monitoring infrastructure using Grafana and Elasticsearch for application health tracking',
         'Worked cross-functionally with product managers in an agile startup culture',
         'Delivered features iteratively across 20+ sprints with consistent velocity'
       ],
-      tags: ['React', 'TypeScript', 'WebSocket', 'Storybook', 'Grafana', 'Startup', 'Agile']
+      tags: ['React', 'TypeScript', 'Java Spring Boot', 'REST APIs', 'GraphQL', 'PostgreSQL', 'WebSocket', 'Storybook', 'Grafana', 'Startup', 'Agile']
     }
   ];
 
